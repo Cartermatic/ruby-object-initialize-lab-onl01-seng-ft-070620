@@ -9,8 +9,8 @@ class Dog
   def name
     @name
   end
-  def breed=(breed)
-   @breed=breed
+  def breed=(breed = "Mutt")
+  if @breed==breed
   end
   
   def breed
